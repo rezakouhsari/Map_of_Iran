@@ -1,0 +1,20 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    direction: rtl;
+}
+svg path {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+    cursor: pointer
+}
+svg path:hover {
+    fill: #3B729F;
+    stroke-width: 3px;
+}
