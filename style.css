@@ -1,6 +1,10 @@
 .container{
     margin: 0 auto;
     width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     direction: rtl;
 }
